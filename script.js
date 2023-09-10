@@ -24,3 +24,5 @@ let updateCurrent = setInterval(
   }, 
   1000
 );
+
+updateCurrent();
