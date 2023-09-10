@@ -18,7 +18,7 @@ body {
   width: 85%;
   max-width: 800px;
   height: 75vh;
-  padding: 40px;
+  padding: 25px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -35,10 +35,10 @@ body {
 #img-container {
   width: 180px;
   height: 180px;
-  margin-block: 15px;
+  margin-block: 10px;
   border-radius: 50%;
   overflow: hidden;
-  outline: 1px solid red;
+  border: 1px solid #ff2900;
 }
 
 img {
@@ -54,4 +54,18 @@ img {
 
 .bold {
   font-weight: 700;
+}
+
+/** Responsive Media Queries **/
+
+/** Mobile & small devices **/
+
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 18px;
+  }
+
+  .container {
+    height: 80vh;
+  }
 }
